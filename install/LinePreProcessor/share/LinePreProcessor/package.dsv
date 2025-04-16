@@ -1,0 +1,6 @@
+source;share/LinePreProcessor/hook/pythonpath.ps1
+source;share/LinePreProcessor/hook/pythonpath.dsv
+source;share/LinePreProcessor/hook/pythonpath.sh
+source;share/LinePreProcessor/hook/ament_prefix_path.ps1
+source;share/LinePreProcessor/hook/ament_prefix_path.dsv
+source;share/LinePreProcessor/hook/ament_prefix_path.sh

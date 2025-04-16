@@ -1,0 +1,29 @@
+[0.230s] Invoking command in '/home/bah/LineFollower_Sim2Real/src/linepreprocessor': PYTHONPATH=/home/bah/LineFollower_Sim2Real/build/LinePreProcessor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/LinePreProcessor build --build-base /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build install --record /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/install.log --single-version-externally-managed install_data
+[0.321s] running egg_info
+[0.322s] writing ../../build/LinePreProcessor/LinePreProcessor.egg-info/PKG-INFO
+[0.322s] writing dependency_links to ../../build/LinePreProcessor/LinePreProcessor.egg-info/dependency_links.txt
+[0.322s] writing entry points to ../../build/LinePreProcessor/LinePreProcessor.egg-info/entry_points.txt
+[0.322s] writing requirements to ../../build/LinePreProcessor/LinePreProcessor.egg-info/requires.txt
+[0.322s] writing top-level names to ../../build/LinePreProcessor/LinePreProcessor.egg-info/top_level.txt
+[0.323s] reading manifest file '../../build/LinePreProcessor/LinePreProcessor.egg-info/SOURCES.txt'
+[0.323s] adding license file 'LICENSE'
+[0.323s] writing manifest file '../../build/LinePreProcessor/LinePreProcessor.egg-info/SOURCES.txt'
+[0.323s] running build
+[0.323s] running build_py
+[0.323s] creating /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/linepreprocessor
+[0.323s] copying linepreprocessor/line_center_finder.py -> /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/linepreprocessor
+[0.323s] copying linepreprocessor/__init__.py -> /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/linepreprocessor
+[0.323s] running install
+[0.323s] running install_lib
+[0.323s] creating /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/linepreprocessor
+[0.323s] copying /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/linepreprocessor/line_center_finder.py -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/linepreprocessor
+[0.324s] copying /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/linepreprocessor/__init__.py -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/linepreprocessor
+[0.324s] byte-compiling /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/linepreprocessor/line_center_finder.py to line_center_finder.cpython-310.pyc
+[0.324s] byte-compiling /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/linepreprocessor/__init__.py to __init__.cpython-310.pyc
+[0.324s] running install_data
+[0.324s] running install_egg_info
+[0.325s] removing '/home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.325s] Copying ../../build/LinePreProcessor/LinePreProcessor.egg-info to /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor-0.0.0-py3.10.egg-info
+[0.326s] running install_scripts
+[0.334s] writing list of installed files to '/home/bah/LineFollower_Sim2Real/build/LinePreProcessor/install.log'
+[0.343s] Invoked command in '/home/bah/LineFollower_Sim2Real/src/linepreprocessor' returned '0': PYTHONPATH=/home/bah/LineFollower_Sim2Real/build/LinePreProcessor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/LinePreProcessor build --build-base /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build install --record /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/install.log --single-version-externally-managed install_data

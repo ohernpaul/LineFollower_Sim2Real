@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/LinePreProcessor/LinePreProcessor.egg-info
+writing ../../build/LinePreProcessor/LinePreProcessor.egg-info/PKG-INFO
+writing dependency_links to ../../build/LinePreProcessor/LinePreProcessor.egg-info/dependency_links.txt
+writing entry points to ../../build/LinePreProcessor/LinePreProcessor.egg-info/entry_points.txt
+writing requirements to ../../build/LinePreProcessor/LinePreProcessor.egg-info/requires.txt
+writing top-level names to ../../build/LinePreProcessor/LinePreProcessor.egg-info/top_level.txt
+writing manifest file '../../build/LinePreProcessor/LinePreProcessor.egg-info/SOURCES.txt'
+reading manifest file '../../build/LinePreProcessor/LinePreProcessor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/LinePreProcessor/LinePreProcessor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build
+creating /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib
+creating /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/LinePreProcessor
+copying LinePreProcessor/line_center_finder.py -> /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/LinePreProcessor
+copying LinePreProcessor/__init__.py -> /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/LinePreProcessor
+running install
+running install_lib
+creating /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor
+copying /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/LinePreProcessor/line_center_finder.py -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor
+copying /home/bah/LineFollower_Sim2Real/build/LinePreProcessor/build/lib/LinePreProcessor/__init__.py -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor
+byte-compiling /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor/line_center_finder.py to line_center_finder.cpython-310.pyc
+byte-compiling /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/share/ament_index
+creating /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/share/ament_index/resource_index
+creating /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/share/ament_index/resource_index/packages
+copying resource/LinePreProcessor -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/share/ament_index/resource_index/packages
+copying package.xml -> /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/share/LinePreProcessor
+running install_egg_info
+Copying ../../build/LinePreProcessor/LinePreProcessor.egg-info to /home/bah/LineFollower_Sim2Real/install/LinePreProcessor/lib/python3.10/site-packages/LinePreProcessor-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bah/LineFollower_Sim2Real/build/LinePreProcessor/install.log'

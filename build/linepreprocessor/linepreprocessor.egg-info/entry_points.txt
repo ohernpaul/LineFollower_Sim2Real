@@ -1,0 +1,3 @@
+[console_scripts]
+line_center_finder = LinePreProcessor.line_center_finder:main
+
