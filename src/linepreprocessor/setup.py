@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'line_center_finder = LinePreProcessor.line_center_finder:main'
+        	'line_center_finder = linepreprocessor.line_center_finder:main'
         ],
     },
 )

@@ -4,3 +4,6 @@ source;share/linepreprocessor/hook/pythonpath.sh
 source;share/linepreprocessor/hook/ament_prefix_path.ps1
 source;share/linepreprocessor/hook/ament_prefix_path.dsv
 source;share/linepreprocessor/hook/ament_prefix_path.sh
+source;../../build/linepreprocessor/share/linepreprocessor/hook/pythonpath_develop.ps1
+source;../../build/linepreprocessor/share/linepreprocessor/hook/pythonpath_develop.dsv
+source;../../build/linepreprocessor/share/linepreprocessor/hook/pythonpath_develop.sh

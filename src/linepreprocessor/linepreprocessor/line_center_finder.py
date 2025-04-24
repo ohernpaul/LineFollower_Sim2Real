@@ -8,22 +8,54 @@ import numpy as np
 from cv_bridge import CvBridge
 bridge = CvBridge()
 import cv2
+import os
 
 class RawImageSubscriber(Node):
     def __init__(self):
         super().__init__('raw_image_subscriber')
+        self.declare_parameter('capture_image', False)
+        capture_image_val = self.get_parameter('capture_image').get_parameter_value().bool_value
+        self.get_logger().info(f"Capture Image Set To:{capture_image_val}")
+
+        default_capture_dir = os.path.join(os.getcwd(), 'raw_image_capture')
+        self.declare_parameter('capture_dir', default_capture_dir)
+        capture_dir_val = self.get_parameter('capture_dir').get_parameter_value().string_value
+        self.get_logger().info(f"Capture Image Set To:{capture_dir_val}")
+        
+        if capture_image_val:
+            os.makedirs(capture_dir_val, exist_ok=True)
+            
         self.subscription = self.create_subscription(Image, 'image_raw', self.preproc_image_callback, 10)
         self.latest_image = None
         self.subscription
+
+    #saves each incoming image based on ros arg params
+    def check_save_img(self, cv_image):
+        if self.get_parameter('capture_image').get_parameter_value().bool_value:
+            #save_img = cv_image * 255.0
+            #save_img = save_img.astype(np.uint8)
+
+            filename = os.path.join(
+            self.get_parameter('capture_dir').get_parameter_value().string_value,
+            f"frame_{rclpy.clock.Clock().now().nanoseconds}.png")
+
+            cv2.imwrite(filename, cv_image)
+
+            self.get_logger().info(f"Saved Incoming Image to {filename}")
 
     #convert the image message to cv2 image and flip colors (black to white)
     def preproc_image_callback(self, msg):
         try:
             cv_image = bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+
+            self.check_save_img(bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8'))
+
             processed_image = cv2.bitwise_not(cv_image)
             self.latest_image = processed_image
+            #self.latest_image = cv_image
         except Exception as e:
             self.get_logger().error(f"Image Conversion Failed: {e}")
+
 
 
 class ImageCenterPublisher(Node):
