@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating linepreprocessor.egg-info
+writing linepreprocessor.egg-info/PKG-INFO
+writing dependency_links to linepreprocessor.egg-info/dependency_links.txt
+writing entry points to linepreprocessor.egg-info/entry_points.txt
+writing requirements to linepreprocessor.egg-info/requires.txt
+writing top-level names to linepreprocessor.egg-info/top_level.txt
+writing manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+reading manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+writing manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/python3.10/site-packages/linepreprocessor.egg-link (link to .)
+Installing line_center_finder script to /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/linepreprocessor
+
+Installed /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor
+running symlink_data
+creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index
+creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index
+creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index/packages
+symbolically linking /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/resource/linepreprocessor -> /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index/packages
+symbolically linking /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/package.xml -> /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/linepreprocessor

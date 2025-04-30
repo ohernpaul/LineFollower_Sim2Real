@@ -1,0 +1,24 @@
+[0.654s] Invoking command in '/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor': PYTHONPATH=/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/build --no-deps symlink_data
+[0.892s] running develop
+[1.046s] running egg_info
+[1.046s] creating linepreprocessor.egg-info
+[1.055s] writing linepreprocessor.egg-info/PKG-INFO
+[1.055s] writing dependency_links to linepreprocessor.egg-info/dependency_links.txt
+[1.055s] writing entry points to linepreprocessor.egg-info/entry_points.txt
+[1.055s] writing requirements to linepreprocessor.egg-info/requires.txt
+[1.055s] writing top-level names to linepreprocessor.egg-info/top_level.txt
+[1.055s] writing manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+[1.181s] reading manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+[1.182s] writing manifest file 'linepreprocessor.egg-info/SOURCES.txt'
+[1.214s] running build_ext
+[1.214s] Creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/python3.10/site-packages/linepreprocessor.egg-link (link to .)
+[1.215s] Installing line_center_finder script to /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/linepreprocessor
+[1.215s] 
+[1.215s] Installed /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor
+[1.215s] running symlink_data
+[1.215s] creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index
+[1.215s] creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index
+[1.215s] creating /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index/packages
+[1.215s] symbolically linking /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/resource/linepreprocessor -> /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/ament_index/resource_index/packages
+[1.215s] symbolically linking /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/package.xml -> /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/share/linepreprocessor
+[1.250s] Invoked command in '/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/install/linepreprocessor/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspaces/isaac_ros-dev/src/LineFollower_Sim2Real/src/linepreprocessor/build/linepreprocessor/build --no-deps symlink_data
