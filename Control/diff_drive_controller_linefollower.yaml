@@ -1,0 +1,10 @@
+diff_drive_controller:
+  ros__parameters:
+    type: diff_drive_controller/DiffDriveController
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+    wheel_separation: 0.16
+    wheel_radius: 0.03
+    publish_rate: 50
+    cmd_vel_timeout: 0.5
+    use_stamped_vel: false
